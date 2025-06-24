@@ -97,12 +97,12 @@ body {
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, #0f766e 0%, #059669 100%);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .hero-container {
@@ -113,7 +113,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 .hero-content {
@@ -189,12 +189,13 @@ body {
 
 .search-container {
     position: absolute;
-    bottom: 40px;
+    bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 800px;
     padding: 0 20px;
+    z-index: 1000;
 }
 
 .search-wrapper {
@@ -484,9 +485,17 @@ body {
     
     .hero-container {
         grid-template-columns: 1fr;
-        gap: 40px;
+        align-items: flex-start;
+        gap: 0px;
         text-align: center;
         padding-top: 100px;
+        min-height: 120vh;
+    }
+    .hero-circle {
+        margin-top: -80px;
+    }
+    .search-container {
+        bottom: -60px;
     }
     
     .hero-title {
