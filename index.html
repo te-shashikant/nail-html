@@ -1,585 +1,920 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Track Just Transition - Empowering Just & Inclusive Climate Action</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Track Just Transition - Empowering Just & Inclusive Climate Action
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <div class="logo-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="12" cy="12" r="10" fill="#4ade80"/>
-                        <path d="M8 12l2 2 4-4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-                <span class="logo-text">TRACK JUST TRANSITION</span>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="#report-library" class="nav-link">Report Library</a></li>
-                <li class="nav-item"><a href="#learning-hub" class="nav-link">Learning Hub</a></li>
-                <li class="nav-item"><a href="#data-hub" class="nav-link">Data Hub</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <div class="logo-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12" cy="12" r="10" fill="#4ade80" />
+              <path
+                d="M8 12l2 2 4-4"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <span class="logo-text">TRACK JUST TRANSITION</span>
         </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#report-library" class="nav-link">Report Library</a>
+          </li>
+          <li class="nav-item">
+            <a href="#learning-hub" class="nav-link">Learning Hub</a>
+          </li>
+          <li class="nav-item">
+            <a href="#data-hub" class="nav-link">Data Hub</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Empowering Just & Inclusive Climate Action</h1>
-                <p class="hero-description">Your comprehensive portal for sustainability reporting, resources, and best practices for small and medium enterprises.</p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary">Explore Reports</button>
-                    <button class="btn btn-secondary">Learning Resources</button>
-                </div>
-            </div>
-            <div class="hero-visual">
-                <div class="hero-circle"></div>
-            </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Empowering Just & Inclusive Climate Action</h1>
+          <p class="hero-description">
+            Your comprehensive portal for sustainability reporting, resources,
+            and best practices for small and medium enterprises.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">Explore Reports</button>
+            <button class="btn btn-secondary">Learning Resources</button>
+          </div>
         </div>
-        <div class="search-container">
-            <div class="search-wrapper">
-                <input type="text" class="search-input" placeholder="Search for reports, resources, or topics...">
-                <button class="search-btn">Search</button>
-            </div>
+        <div class="hero-visual">
+          <div class="hero-circle"></div>
         </div>
+      </div>
+      <div class="search-container">
+        <div class="search-wrapper">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search for reports, resources, or topics..."
+          />
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
     </section>
 
-        <!-- News Section -->
+    <!-- News Section -->
     <section id="news" class="news">
-        <div class="container">
-            <h2 class="section-title">Latest News & Highlights</h2>
-            <div class="news-slider">
-                <div class="slider-container">
-                    <button class="slider-btn prev" id="prevBtn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
-                    <div class="slider-content">
-                        <div class="slide active">
-                            <div class="slide-visual">
-                                <div class="slide-icon">
-                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="slider-btn next" id="nextBtn">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </button>
+      <div class="container">
+        <h2 class="section-title">Latest News & Highlights</h2>
+        <div class="news-slider">
+          <div class="slider-container">
+            <button class="slider-btn prev" id="prevBtn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 18l-6-6 6-6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="slider-content">
+              <div class="slide active">
+                <div class="slide-visual">
+                  <div class="slide-icon">
+                    <svg
+                      width="48"
+                      height="48"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <polyline
+                        points="14,2 14,8 20,8"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
                 </div>
-                <div class="news-content">
-                    <span class="news-tag">NEWS</span>
-                    <h3 class="news-title">New Sustainability Reporting Guidelines Released</h3>
-                    <p class="news-description">Updated framework helps SMEs align with global standards while simplifying the reporting process.</p>
-                    <a href="#" class="news-link">Read More →</a>
-                </div>
-                <div class="slider-dots">
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+              </div>
             </div>
+            <button class="slider-btn next" id="nextBtn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 18l6-6-6-6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="news-content">
+            <span class="news-tag">NEWS</span>
+            <h3 class="news-title">
+              New Sustainability Reporting Guidelines Released
+            </h3>
+            <p class="news-description">
+              Updated framework helps SMEs align with global standards while
+              simplifying the reporting process.
+            </p>
+            <a href="#" class="news-link">Read More →</a>
+          </div>
+          <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Resources Section -->
     <section id="resources" class="resources">
-        <div class="container">
-            <h2 class="section-title">Explore Our Resources</h2>
-            <div class="resources-grid">
-                <div class="resource-card">
-                    <div class="resource-icon green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Report Library</h3>
-                    <p class="resource-description">Access our comprehensive collection of sustainability reports from SMEs across industries and regions.</p>
-                    <a href="#" class="resource-link green">Browse Reports →</a>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon blue">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Learning Hub</h3>
-                    <p class="resource-description">Discover toolkits, guides, webinars, and training resources to enhance your sustainability practices.</p>
-                    <a href="#" class="resource-link blue">Explore Resources →</a>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon purple">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 3v18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Data Hub</h3>
-                    <p class="resource-description">Analyze BRSR reports, explore best practices, and interact with our AI chatbot for data insights.</p>
-                    <a href="#" class="resource-link purple">Access Data →</a>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Explore Our Resources</h2>
+        <div class="resources-grid">
+          <div class="resource-card">
+            <div class="resource-icon green">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </div>
+            <h3 class="resource-title">Report Library</h3>
+            <p class="resource-description">
+              Access our comprehensive collection of sustainability reports from
+              SMEs across industries and regions.
+            </p>
+            <a href="#" class="resource-link green">Browse Reports →</a>
+          </div>
+          <div class="resource-card">
+            <div class="resource-icon blue">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 10v6M2 10l10-5 10 5-10 5z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6 12v5c3 3 9 3 12 0v-5"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="resource-title">Learning Hub</h3>
+            <p class="resource-description">
+              Discover toolkits, guides, webinars, and training resources to
+              enhance your sustainability practices.
+            </p>
+            <a href="#" class="resource-link blue">Explore Resources →</a>
+          </div>
+          <div class="resource-card">
+            <div class="resource-icon purple">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 3v18h18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="resource-title">Data Hub</h3>
+            <p class="resource-description">
+              Analyze BRSR reports, explore best practices, and interact with
+              our AI chatbot for data insights.
+            </p>
+            <a href="#" class="resource-link purple">Access Data →</a>
+          </div>
         </div>
+      </div>
     </section>
-
-
-
-<!-- Resources Section -->
-    <!-- <section id="resources" class="resources">
-        <div class="container">
-            <h2 class="section-title">Explore Our Resources</h2>
-            <div class="resources-grid">
-                <div class="resource-card">
-                    <div class="resource-icon green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Report Library</h3>
-                    <p class="resource-description">Access our comprehensive collection of sustainability reports from SMEs across industries and regions.</p>
-                    <a href="#" class="resource-link green">Browse Reports →</a>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon blue">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M6 12v5c3 3 9 3 12 0v-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Learning Hub</h3>
-                    <p class="resource-description">Discover toolkits, guides, webinars, and training resources to enhance your sustainability practices.</p>
-                    <a href="#" class="resource-link blue">Explore Resources →</a>
-                </div>
-                <div class="resource-card">
-                    <div class="resource-icon purple">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 3v18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-title">Data Hub</h3>
-                    <p class="resource-description">Analyze BRSR reports, explore best practices, and interact with our AI chatbot for data insights.</p>
-                    <a href="#" class="resource-link purple">Access Data →</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
- 
 
     <!-- Report Library Section -->
     <section id="report-library" class="report-library">
-        <div class="container">
-            <div class="report-library-header">
-                <h2 class="section-title-left">Report Library</h2>
-                <p class="section-subtitle">Access our comprehensive collection of SME sustainability reports</p>
-            </div>
-            
-            <div class="filters-section">
-                <div class="filters-row">
-                    <div class="filter-group">
-                        <label for="search">Search</label>
-                        <input type="text" id="search" placeholder="Keywords..." class="filter-input">
-                    </div>
-                    <div class="filter-group">
-                        <label for="industry">Industry</label>
-                        <select id="industry" class="filter-select">
-                            <option>All Industries</option>
-                            <option>Manufacturing</option>
-                            <option>Technology</option>
-                            <option>Agriculture</option>
-                            <option>Energy</option>
-                            <option>Retail</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label for="year">Year</label>
-                        <select id="year" class="filter-select">
-                            <option>All Years</option>
-                            <option>2023</option>
-                            <option>2022</option>
-                            <option>2021</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label for="region">Region</label>
-                        <select id="region" class="filter-select">
-                            <option>All Regions</option>
-                            <option>Asia Pacific</option>
-                            <option>North America</option>
-                            <option>Europe</option>
-                            <option>South America</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="filters-actions">
-                    <div class="sort-group">
-                        <label for="sort">Sort by</label>
-                        <select id="sort" class="filter-select">
-                            <option>Newest First</option>
-                            <option>Oldest First</option>
-                            <option>A-Z</option>
-                            <option>Z-A</option>
-                        </select>
-                    </div>
-                    <button class="apply-filters-btn">Apply Filters</button>
-                </div>
-            </div>
-
-            <div class="reports-grid">
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag manufacturing">Manufacturing</span>
-                        <span class="year-tag">2023</span>
-                    </div>
-                    <h3 class="report-title">EcoTech Solutions Sustainability Report</h3>
-                    <p class="report-description">Comprehensive overview of environmental initiatives, carbon reduction strategies, and social responsibility programs.</p>
-                    <div class="report-tags">
-                        <span class="tag carbon">Carbon Neutral</span>
-                        <span class="tag social">Social Impact</span>
-                        <span class="tag energy">Renewable Energy</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">Asia Pacific</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag technology">Technology</span>
-                        <span class="year-tag">2023</span>
-                    </div>
-                    <h3 class="report-title">GreenSoft Technologies ESG Report</h3>
-                    <p class="report-description">Detailed analysis of environmental footprint, governance practices, and community engagement initiatives.</p>
-                    <div class="report-tags">
-                        <span class="tag esg">ESG</span>
-                        <span class="tag governance">Governance</span>
-                        <span class="tag diversity">Diversity</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">North America</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag agriculture">Agriculture</span>
-                        <span class="year-tag">2022</span>
-                    </div>
-                    <h3 class="report-title">Sustainable Farms Collective Annual Report</h3>
-                    <p class="report-description">Focus on regenerative agriculture practices, water conservation efforts, and fair trade commitments.</p>
-                    <div class="report-tags">
-                        <span class="tag regenerative">Regenerative</span>
-                        <span class="tag water">Water Conservation</span>
-                        <span class="tag trade">Fair Trade</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">Europe</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag retail">Retail</span>
-                        <span class="year-tag">2022</span>
-                    </div>
-                    <h3 class="report-title">EcoRetail Solutions Sustainability Report</h3>
-                    <p class="report-description">Highlights sustainable supply chain management, packaging innovations, and ethical sourcing practices.</p>
-                    <div class="report-tags">
-                        <span class="tag supply">Supply Chain</span>
-                        <span class="tag packaging">Packaging</span>
-                        <span class="tag ethical">Ethical Sourcing</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">South America</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag energy">Energy</span>
-                        <span class="year-tag">2021</span>
-                    </div>
-                    <h3 class="report-title">CleanPower Co-op Impact Report</h3>
-                    <p class="report-description">Details on renewable energy production, community ownership model, and carbon offset achievements.</p>
-                    <div class="report-tags">
-                        <span class="tag solar">Solar</span>
-                        <span class="tag community">Community Owned</span>
-                        <span class="tag offset">Carbon Offset</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">Europe</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-
-                <div class="report-card">
-                    <div class="report-header">
-                        <span class="industry-tag manufacturing">Manufacturing</span>
-                        <span class="year-tag">2021</span>
-                    </div>
-                    <h3 class="report-title">CircularTech Manufacturing ESG Report</h3>
-                    <p class="report-description">Focus on circular economy principles, waste reduction initiatives, and employee wellbeing programs.</p>
-                    <div class="report-tags">
-                        <span class="tag circular">Circular Economy</span>
-                        <span class="tag waste">Zero Waste</span>
-                        <span class="tag employee">Employee Wellbeing</span>
-                    </div>
-                    <div class="report-footer">
-                        <span class="report-region">Asia Pacific</span>
-                        <a href="#" class="download-btn">Download PDF ↓</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pagination">
-                <button class="pagination-btn" disabled>Previous</button>
-                <button class="pagination-btn active">1</button>
-                <button class="pagination-btn">2</button>
-                <button class="pagination-btn">3</button>
-                <button class="pagination-btn">Next</button>
-            </div>
+      <div class="container">
+        <div class="report-library-header">
+          <h2 class="section-title-left">Report Library</h2>
+          <p class="section-subtitle">
+            Access our comprehensive collection of SME sustainability reports
+          </p>
         </div>
+
+        <div class="filters-section">
+          <div class="filters-row">
+            <div class="filter-group">
+              <label for="search">Search</label>
+              <input
+                type="text"
+                id="search"
+                placeholder="Keywords..."
+                class="filter-input"
+              />
+            </div>
+            <div class="filter-group">
+              <label for="industry">Industry</label>
+              <select id="industry" class="filter-select">
+                <option>All Industries</option>
+                <option>Manufacturing</option>
+                <option>Technology</option>
+                <option>Agriculture</option>
+                <option>Energy</option>
+                <option>Retail</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="year">Year</label>
+              <select id="year" class="filter-select">
+                <option>All Years</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <label for="region">Region</label>
+              <select id="region" class="filter-select">
+                <option>All Regions</option>
+                <option>Asia Pacific</option>
+                <option>North America</option>
+                <option>Europe</option>
+                <option>South America</option>
+              </select>
+            </div>
+          </div>
+          <div class="filters-actions">
+            <div class="sort-group">
+              <label for="sort">Sort by</label>
+              <select id="sort" class="filter-select">
+                <option>Newest First</option>
+                <option>Oldest First</option>
+                <option>A-Z</option>
+                <option>Z-A</option>
+              </select>
+            </div>
+            <button class="apply-filters-btn">Apply Filters</button>
+          </div>
+        </div>
+
+        <div class="reports-grid">
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag manufacturing">Manufacturing</span>
+              <span class="year-tag">2023</span>
+            </div>
+            <h3 class="report-title">
+              EcoTech Solutions Sustainability Report
+            </h3>
+            <p class="report-description">
+              Comprehensive overview of environmental initiatives, carbon
+              reduction strategies, and social responsibility programs.
+            </p>
+            <div class="report-tags">
+              <span class="tag carbon">Carbon Neutral</span>
+              <span class="tag social">Social Impact</span>
+              <span class="tag energy">Renewable Energy</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">Asia Pacific</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag technology">Technology</span>
+              <span class="year-tag">2023</span>
+            </div>
+            <h3 class="report-title">GreenSoft Technologies ESG Report</h3>
+            <p class="report-description">
+              Detailed analysis of environmental footprint, governance
+              practices, and community engagement initiatives.
+            </p>
+            <div class="report-tags">
+              <span class="tag esg">ESG</span>
+              <span class="tag governance">Governance</span>
+              <span class="tag diversity">Diversity</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">North America</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag agriculture">Agriculture</span>
+              <span class="year-tag">2022</span>
+            </div>
+            <h3 class="report-title">
+              Sustainable Farms Collective Annual Report
+            </h3>
+            <p class="report-description">
+              Focus on regenerative agriculture practices, water conservation
+              efforts, and fair trade commitments.
+            </p>
+            <div class="report-tags">
+              <span class="tag regenerative">Regenerative</span>
+              <span class="tag water">Water Conservation</span>
+              <span class="tag trade">Fair Trade</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">Europe</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag retail">Retail</span>
+              <span class="year-tag">2022</span>
+            </div>
+            <h3 class="report-title">
+              EcoRetail Solutions Sustainability Report
+            </h3>
+            <p class="report-description">
+              Highlights sustainable supply chain management, packaging
+              innovations, and ethical sourcing practices.
+            </p>
+            <div class="report-tags">
+              <span class="tag supply">Supply Chain</span>
+              <span class="tag packaging">Packaging</span>
+              <span class="tag ethical">Ethical Sourcing</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">South America</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag energy">Energy</span>
+              <span class="year-tag">2021</span>
+            </div>
+            <h3 class="report-title">CleanPower Co-op Impact Report</h3>
+            <p class="report-description">
+              Details on renewable energy production, community ownership model,
+              and carbon offset achievements.
+            </p>
+            <div class="report-tags">
+              <span class="tag solar">Solar</span>
+              <span class="tag community">Community Owned</span>
+              <span class="tag offset">Carbon Offset</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">Europe</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+
+          <div class="report-card">
+            <div class="report-header">
+              <span class="industry-tag manufacturing">Manufacturing</span>
+              <span class="year-tag">2021</span>
+            </div>
+            <h3 class="report-title">CircularTech Manufacturing ESG Report</h3>
+            <p class="report-description">
+              Focus on circular economy principles, waste reduction initiatives,
+              and employee wellbeing programs.
+            </p>
+            <div class="report-tags">
+              <span class="tag circular">Circular Economy</span>
+              <span class="tag waste">Zero Waste</span>
+              <span class="tag employee">Employee Wellbeing</span>
+            </div>
+            <div class="report-footer">
+              <span class="report-region">Asia Pacific</span>
+              <a href="#" class="download-btn">Download PDF ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <button class="pagination-btn" disabled>Previous</button>
+          <button class="pagination-btn active">1</button>
+          <button class="pagination-btn">2</button>
+          <button class="pagination-btn">3</button>
+          <button class="pagination-btn">Next</button>
+        </div>
+      </div>
     </section>
 
     <!-- Learning Hub Section -->
     <section id="learning-hub" class="learning-hub">
-        <div class="container">
-            <div class="learning-hub-header">
-                <h2 class="section-title-left">Learning Hub</h2>
-                <p class="section-subtitle">Discover resources to enhance your sustainability practices</p>
-            </div>
-
-            <div class="learning-filters">
-                <div class="learning-filter-group">
-                    <label for="resource-type">Resource Type</label>
-                    <select id="resource-type" class="filter-select">
-                        <option>All Resources</option>
-                        <option>Toolkits</option>
-                        <option>Guides</option>
-                        <option>Webinars</option>
-                        <option>Templates</option>
-                    </select>
-                </div>
-                <div class="learning-filter-group">
-                    <label for="topic">Topic</label>
-                    <select id="topic" class="filter-select">
-                        <option>All Topics</option>
-                        <option>Carbon Management</option>
-                        <option>ESG Reporting</option>
-                        <option>Supply Chain</option>
-                        <option>Social Impact</option>
-                    </select>
-                </div>
-                <button class="filter-resources-btn">Filter Resources</button>
-            </div>
-
-            <div class="featured-resources">
-                <h3 class="featured-title">Featured Resources</h3>
-                <div class="featured-grid">
-                    <div class="featured-card blue">
-                        <div class="featured-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="featured-content">
-                            <span class="featured-type">Toolkit</span>
-                            <span class="featured-date">Updated: May 2023</span>
-                            <h4 class="featured-resource-title">SME Sustainability Reporting Starter Kit</h4>
-                            <p class="featured-description">A comprehensive guide to help small businesses begin their sustainability reporting journey with templates and examples.</p>
-                            <a href="#" class="featured-link">Download Toolkit ↓</a>
-                        </div>
-                    </div>
-
-                    <div class="featured-card purple">
-                        <div class="featured-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23 7l-7 5 7 5V7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <rect x="1" y="5" width="15" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="featured-content">
-                            <span class="featured-type">Webinar</span>
-                            <span class="featured-date">June 15, 2023</span>
-                            <h4 class="featured-resource-title">Carbon Accounting for Small Businesses</h4>
-                            <p class="featured-description">Learn practical approaches to measure, report, and reduce your carbon footprint with expert guidance.</p>
-                            <a href="#" class="featured-link">Register Now →</a>
-                        </div>
-                    </div>
-
-                    <div class="featured-card green">
-                        <div class="featured-icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <div class="featured-content">
-                            <span class="featured-type">Guide</span>
-                            <span class="featured-date">Updated: April 2023</span>
-                            <h4 class="featured-resource-title">Sustainable Supply Chain Management</h4>
-                            <p class="featured-description">Practical steps to assess, improve, and report on the sustainability of your supply chain operations.</p>
-                            <a href="#" class="featured-link">Download Guide ↓</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="upcoming-webinars">
-                <h3 class="webinars-title">Upcoming Webinars</h3>
-                <div class="webinars-table">
-                    <div class="table-header">
-                        <div class="table-col">DATE & TIME</div>
-                        <div class="table-col">TITLE</div>
-                        <div class="table-col">PRESENTER</div>
-                        <div class="table-col">TOPIC</div>
-                        <div class="table-col">ACTION</div>
-                    </div>
-                    <div class="table-row">
-                        <div class="table-col">
-                            <div class="date-time">June 15, 2023<br><span class="time">10:00 AM GMT</span></div>
-                        </div>
-                        <div class="table-col">Carbon Accounting for Small Businesses</div>
-                        <div class="table-col">
-                            <div class="presenter">Dr. Sarah Johnson<br><span class="institute">Climate Solutions Institute</span></div>
-                        </div>
-                        <div class="table-col"><span class="topic-tag carbon">Carbon Management</span></div>
-                        <div class="table-col"><a href="#" class="register-link">Register</a></div>
-                    </div>
-                    <div class="table-row">
-                        <div class="table-col">
-                            <div class="date-time">June 22, 2023<br><span class="time">2:00 PM GMT</span></div>
-                        </div>
-                        <div class="table-col">ESG Reporting for SMEs: Simplified Approaches</div>
-                        <div class="table-col">
-                            <div class="presenter">Michael Chen<br><span class="institute">Sustainable Business Alliance</span></div>
-                        </div>
-                        <div class="table-col"><span class="topic-tag reporting">Reporting</span></div>
-                        <div class="table-col"><a href="#" class="register-link">Register</a></div>
-                    </div>
-                    <div class="table-row">
-                        <div class="table-col">
-                            <div class="date-time">July 5, 2023<br><span class="time">11:00 AM GMT</span></div>
-                        </div>
-                        <div class="table-col">Building a Sustainable Supply Chain</div>
-                        <div class="table-col">
-                            <div class="presenter">Dr. Amara Patel<br><span class="institute">Global Supply Network</span></div>
-                        </div>
-                        <div class="table-col"><span class="topic-tag supply">Supply Chain</span></div>
-                        <div class="table-col"><a href="#" class="register-link">Register</a></div>
-                    </div>
-                    <div class="table-row">
-                        <div class="table-col">
-                            <div class="date-time">July 18, 2023<br><span class="time">3:00 PM GMT</span></div>
-                        </div>
-                        <div class="table-col">Diversity & Inclusion in Sustainability Reporting</div>
-                        <div class="table-col">
-                            <div class="presenter">Elena Rodriguez<br><span class="institute">Inclusive Futures Institute</span></div>
-                        </div>
-                        <div class="table-col"><span class="topic-tag social">Social Impact</span></div>
-                        <div class="table-col"><a href="#" class="register-link">Register</a></div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="learning-hub-header">
+          <h2 class="section-title-left">Learning Hub</h2>
+          <p class="section-subtitle">
+            Discover resources to enhance your sustainability practices
+          </p>
         </div>
+
+        <div class="learning-filters">
+          <div class="learning-filter-group">
+            <label for="resource-type">Resource Type</label>
+            <select id="resource-type" class="filter-select">
+              <option>All Resources</option>
+              <option>Toolkits</option>
+              <option>Guides</option>
+              <option>Webinars</option>
+              <option>Templates</option>
+            </select>
+          </div>
+          <div class="learning-filter-group">
+            <label for="topic">Topic</label>
+            <select id="topic" class="filter-select">
+              <option>All Topics</option>
+              <option>Carbon Management</option>
+              <option>ESG Reporting</option>
+              <option>Supply Chain</option>
+              <option>Social Impact</option>
+            </select>
+          </div>
+          <button class="filter-resources-btn">Filter Resources</button>
+        </div>
+
+        <div class="featured-resources">
+          <h3 class="featured-title">Featured Resources</h3>
+          <div class="featured-grid">
+            <div class="featured-card blue">
+              <div class="featured-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="featured-content">
+                <span class="featured-type">Toolkit</span>
+                <span class="featured-date">Updated: May 2023</span>
+                <h4 class="featured-resource-title">
+                  SME Sustainability Reporting Starter Kit
+                </h4>
+                <p class="featured-description">
+                  A comprehensive guide to help small businesses begin their
+                  sustainability reporting journey with templates and examples.
+                </p>
+                <a href="#" class="featured-link">Download Toolkit ↓</a>
+              </div>
+            </div>
+
+            <div class="featured-card purple">
+              <div class="featured-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M23 7l-7 5 7 5V7z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <rect
+                    x="1"
+                    y="5"
+                    width="15"
+                    height="14"
+                    rx="2"
+                    ry="2"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="featured-content">
+                <span class="featured-type">Webinar</span>
+                <span class="featured-date">June 15, 2023</span>
+                <h4 class="featured-resource-title">
+                  Carbon Accounting for Small Businesses
+                </h4>
+                <p class="featured-description">
+                  Learn practical approaches to measure, report, and reduce your
+                  carbon footprint with expert guidance.
+                </p>
+                <a href="#" class="featured-link">Register Now →</a>
+              </div>
+            </div>
+
+            <div class="featured-card green">
+              <div class="featured-icon">
+                <svg
+                  width="48"
+                  height="48"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <polyline
+                    points="14,2 14,8 20,8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <div class="featured-content">
+                <span class="featured-type">Guide</span>
+                <span class="featured-date">Updated: April 2023</span>
+                <h4 class="featured-resource-title">
+                  Sustainable Supply Chain Management
+                </h4>
+                <p class="featured-description">
+                  Practical steps to assess, improve, and report on the
+                  sustainability of your supply chain operations.
+                </p>
+                <a href="#" class="featured-link">Download Guide ↓</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="webinars-title">Upcoming Webinars</h3>
+          <div class="upcoming-webinars">
+            <div class="webinars-table">
+              <div class="table-header">
+                <div class="table-col">DATE & TIME</div>
+                <div class="table-col">TITLE</div>
+                <div class="table-col">PRESENTER</div>
+                <div class="table-col">TOPIC</div>
+                <div class="table-col">ACTION</div>
+              </div>
+              <div class="table-row">
+                <div class="table-col">
+                  <div class="date-time">
+                    June 15, 2023<br /><span class="time">10:00 AM GMT</span>
+                  </div>
+                </div>
+                <div class="table-col">
+                  Carbon Accounting for Small Businesses
+                </div>
+                <div class="table-col">
+                  <div class="presenter">
+                    Dr. Sarah Johnson<br /><span class="institute"
+                      >Climate Solutions Institute</span
+                    >
+                  </div>
+                </div>
+                <div class="table-col">
+                  <span class="topic-tag carbon">Carbon Management</span>
+                </div>
+                <div class="table-col">
+                  <a href="#" class="register-link">Register</a>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="table-col">
+                  <div class="date-time">
+                    June 22, 2023<br /><span class="time">2:00 PM GMT</span>
+                  </div>
+                </div>
+                <div class="table-col">
+                  ESG Reporting for SMEs: Simplified Approaches
+                </div>
+                <div class="table-col">
+                  <div class="presenter">
+                    Michael Chen<br /><span class="institute"
+                      >Sustainable Business Alliance</span
+                    >
+                  </div>
+                </div>
+                <div class="table-col">
+                  <span class="topic-tag reporting">Reporting</span>
+                </div>
+                <div class="table-col">
+                  <a href="#" class="register-link">Register</a>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="table-col">
+                  <div class="date-time">
+                    July 5, 2023<br /><span class="time">11:00 AM GMT</span>
+                  </div>
+                </div>
+                <div class="table-col">Building a Sustainable Supply Chain</div>
+                <div class="table-col">
+                  <div class="presenter">
+                    Dr. Amara Patel<br /><span class="institute"
+                      >Global Supply Network</span
+                    >
+                  </div>
+                </div>
+                <div class="table-col">
+                  <span class="topic-tag supply">Supply Chain</span>
+                </div>
+                <div class="table-col">
+                  <a href="#" class="register-link">Register</a>
+                </div>
+              </div>
+              <div class="table-row">
+                <div class="table-col">
+                  <div class="date-time">
+                    July 18, 2023<br /><span class="time">3:00 PM GMT</span>
+                  </div>
+                </div>
+                <div class="table-col">
+                  Diversity & Inclusion in Sustainability Reporting
+                </div>
+                <div class="table-col">
+                  <div class="presenter">
+                    Elena Rodriguez<br /><span class="institute"
+                      >Inclusive Futures Institute</span
+                    >
+                  </div>
+                </div>
+                <div class="table-col">
+                  <span class="topic-tag social">Social Impact</span>
+                </div>
+                <div class="table-col">
+                  <a href="#" class="register-link">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-       <!-- Resource Library Section -->
+    <!-- Resource Library Section -->
     <section id="resource-library" class="resource-library">
-        <div class="container">
-            <h2 class="section-title-left">Resource Library</h2>
-            <div class="resource-library-grid">
-                <div class="resource-library-card">
-                    <div class="resource-library-icon blue">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-library-title">Toolkits & Templates</h3>
-                    <p class="resource-library-description">Ready-to-use resources to streamline your sustainability initiatives.</p>
-                    <ul class="resource-library-list">
-                        <li>✓ Carbon Calculator</li>
-                        <li>✓ Report Templates</li>
-                        <li>✓ Assessment Checklists</li>
-                    </ul>
-                    <a href="#" class="resource-library-link blue">View All Toolkits →</a>
-                </div>
-                <div class="resource-library-card">
-                    <div class="resource-library-icon green">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <polyline points="14,2 14,8 20,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-library-title">Guides & Manuals</h3>
-                    <p class="resource-library-description">Comprehensive guides on various sustainability topics.</p>
-                    <ul class="resource-library-list">
-                        <li>✓ ESG Reporting Guide</li>
-                        <li>✓ Supply Chain Manual</li>
-                        <li>✓ Stakeholder Engagement</li>
-                    </ul>
-                    <a href="#" class="resource-library-link green">View All Guides →</a>
-                </div>
-                <div class="resource-library-card">
-                    <div class="resource-library-icon purple">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M23 7l-7 5 7 5V7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <h3 class="resource-library-title">Webinars & Videos</h3>
-                    <p class="resource-library-description">On-demand recordings and educational content.</p>
-                    <ul class="resource-library-list">
-                        <li>✓ Past Webinar Recordings</li>
-                        <li>✓ Tutorial Videos</li>
-                        <li>✓ Expert Interviews</li>
-                    </ul>
-                    <a href="#" class="resource-library-link purple">View All Videos →</a>
-                </div>
-                <div class="resource-library-card yellow">
-                    <div class="resource-library-icon yellow">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </div>
-                    <div class="coming-soon">Coming Soon</div>
-                </div>
+      <div class="container">
+        <h2 class="webinars-title">Resource Library</h2>
+        <div class="resource-library-grid">
+          <div class="resource-library-card">
+            <div class="resource-library-icon blue">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </div>
+            <h3 class="resource-library-title">Toolkits & Templates</h3>
+            <p class="resource-library-description">
+              Ready-to-use resources to streamline your sustainability
+              initiatives.
+            </p>
+            <ul class="resource-library-list">
+              <li>✓ Carbon Calculator</li>
+              <li>✓ Report Templates</li>
+              <li>✓ Assessment Checklists</li>
+            </ul>
+            <a href="#" class="resource-library-link blue"
+              >View All Toolkits →</a
+            >
+          </div>
+          <div class="resource-library-card">
+            <div class="resource-library-icon green">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <polyline
+                  points="14,2 14,8 20,8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="resource-library-title">Guides & Manuals</h3>
+            <p class="resource-library-description">
+              Comprehensive guides on various sustainability topics.
+            </p>
+            <ul class="resource-library-list">
+              <li>✓ ESG Reporting Guide</li>
+              <li>✓ Supply Chain Manual</li>
+              <li>✓ Stakeholder Engagement</li>
+            </ul>
+            <a href="#" class="resource-library-link green"
+              >View All Guides →</a
+            >
+          </div>
+          <div class="resource-library-card">
+            <div class="resource-library-icon purple">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23 7l-7 5 7 5V7z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <rect
+                  x="1"
+                  y="5"
+                  width="15"
+                  height="14"
+                  rx="2"
+                  ry="2"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3 class="resource-library-title">Webinars & Videos</h3>
+            <p class="resource-library-description">
+              On-demand recordings and educational content.
+            </p>
+            <ul class="resource-library-list">
+              <li>✓ Past Webinar Recordings</li>
+              <li>✓ Tutorial Videos</li>
+              <li>✓ Expert Interviews</li>
+            </ul>
+            <a href="#" class="resource-library-link purple"
+              >View All Videos →</a
+            >
+          </div>
+          <div class="resource-library-card yellow">
+            <div class="resource-library-icon yellow">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1 1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div class="coming-soon">Coming Soon</div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

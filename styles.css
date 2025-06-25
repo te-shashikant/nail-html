@@ -9,7 +9,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8fafc;
+    /* background-color: #f8fafc; */
 }
 
 .container {
@@ -236,7 +236,8 @@ body {
 
 /* Resources Section */
 .resources {
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    padding: 0 0 100px 0;
     background: white;
 }
 
@@ -327,9 +328,8 @@ body {
 
 /* Report Library Section */
 .report-library {
-    padding: 100px 0;
-  background: #f8fafc;
-
+padding: 50px 0 100px 0;
+  /* background: #f8fafc; */
 }
 
 /* News Section */
@@ -348,7 +348,7 @@ body {
     background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
     border-radius: 16px;
     height: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -594,8 +594,8 @@ body {
 
 /* Resource Library Section */
 .resource-library {
-  padding: 100px 0;
-  background: #f8fafc;
+  padding: 30px 0 100px 0;
+  /* background: #f8fafc; */
 }
 
 .resource-library-grid {
@@ -708,7 +708,8 @@ body {
 /* Report Library Section */
 .report-library {
   padding: 100px 0;
-  background: white;
+  /* background: white; */
+background: #f8fafc;
 }
 
 .report-library-header {
@@ -1020,7 +1021,7 @@ body {
 
 /* Learning Hub Section */
 .learning-hub {
-  padding: 100px 0;
+  padding: 50px 0;
   /* background: #f8fafc; */
 }
 
@@ -1069,7 +1070,7 @@ body {
 }
 
 .featured-title {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   font-weight: 600;
   margin-bottom: 24px;
   color: #1e293b;
@@ -1169,7 +1170,7 @@ body {
 }
 
 .webinars-title {
-  font-size: 1.5rem;
+  font-size: 2.0rem;
   font-weight: 600;
   margin-bottom: 24px;
   color: #1e293b;
