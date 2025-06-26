@@ -13,7 +13,7 @@
   --light-yellow: #fef3c7;
   --text-dark: #1e293b;
   --text-muted: #64748b;
-  --section-spacing: 100px;
+  --section-spacing: 60px;
 }
 
 /* Bootstrap Color Overrides */
@@ -70,12 +70,12 @@ body {
   color: var(--text-dark);
 }
 
-/* Section Spacing */
+/* Section Spacing - Equal spacing for all sections */
 .section-spacing {
   padding: var(--section-spacing) 0;
 }
 
-/* Section Titles */
+/* Section Titles - Consistent styling for all section titles */
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -136,11 +136,15 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Hero Section */
+/* Hero Section - Adjusted height and responsive circle */
 .hero-section {
   background: linear-gradient(135deg, #0f766e 0%, #059669 100%);
-  min-height: 100vh;
+  min-height: 75vh;
   padding-top: 80px;
+}
+
+.hero-content-wrapper {
+  min-height: calc(75vh - 80px);
 }
 
 .hero-circle {
@@ -159,27 +163,61 @@ body {
   border-color: transparent;
 }
 
-/* Resource Cards */
-.resource-card {
-  transition: all 0.3s ease;
+/* Responsive Hero Circle */
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 70vh;
+  }
+
+  .hero-content-wrapper {
+    min-height: calc(70vh - 80px);
+  }
+
+  .hero-circle {
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+  }
+
+  .search-container {
+    bottom: -20px;
+  }
 }
 
-.resource-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) !important;
+@media (max-width: 576px) {
+  .hero-circle {
+    width: 150px;
+    height: 150px;
+  }
 }
 
-.resource-icon {
-  width: 64px;
-  height: 64px;
+/* News Slider - Increased height for better image display */
+.slider-container {
+  padding: 0 !important; /* Remove any internal spacing */
+  margin: 0 !important;
 }
 
-.resource-library-icon {
-  width: 56px;
-  height: 56px;
+.slider-content {
+  height: 100%;
+}
+.slider-content, .slide {
+  width: 100%;
+  height: 100%;
 }
 
-/* News Slider */
+.slide-image img {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.slide img {
+  width: 100% !important;
+  height: 100% !important;
+  /* object-fit: fill !important; This will STRETCH the image */
+  border-radius: 0 !important; /* Remove rounded corners if any */
+}
+
 .slider-btn {
   width: 48px;
   height: 48px;
@@ -201,6 +239,24 @@ body {
 
 .dot.active {
   background-color: var(--primary-color) !important;
+}
+
+/* Resource Cards - Enhanced styling */
+.resource-card,
+.resource-library-card {
+  transition: all 0.3s ease;
+}
+
+.resource-card:hover,
+.resource-library-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.resource-icon,
+.resource-library-icon {
+  width: 64px;
+  height: 64px;
 }
 
 /* Report Cards */
@@ -330,31 +386,31 @@ body {
   color: #ec4899;
 }
 
-/* Topic Tags */
+/* Topic Tags - Enhanced visibility */
 .topic-tag {
   font-size: 0.6875rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.3px;
-  padding: 0.25rem 0.75rem;
+  padding: 0.4rem 0.8rem;
   border-radius: 0.375rem;
+  color: white !important;
 }
 
-.topic-tag.carbon {
-  background: var(--light-green);
-  color: var(--primary-color);
+.topic-tag.carbon,
+.topic-tag.carbonmanagement {
+  background: var(--primary-color) !important;
 }
 .topic-tag.reporting {
-  background: var(--light-blue);
-  color: var(--info-color);
+  background: var(--info-color) !important;
 }
-.topic-tag.supply {
-  background: var(--light-purple);
-  color: var(--purple-color);
+.topic-tag.supply,
+.topic-tag.supplychain {
+  background: var(--purple-color) !important;
 }
-.topic-tag.social {
-  background: #fce7f3;
-  color: #ec4899;
+.topic-tag.social,
+.topic-tag.socialimpact {
+  background: #ec4899 !important;
 }
 
 /* Featured Cards */
@@ -398,6 +454,33 @@ body {
   color: var(--text-muted);
 }
 
+/* About Page Styles */
+.value-icon {
+  width: 80px;
+  height: 80px;
+}
+
+/* Contact Page Styles */
+.contact-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.contact-form {
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: auto;
+}
+
+.footer .social-links a:hover {
+  color: var(--primary-color) !important;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {
@@ -416,13 +499,12 @@ body {
     font-size: 2rem;
   }
 
-  .hero-circle {
-    width: 200px;
-    height: 200px;
+  .section-spacing {
+    padding: 60px 0;
   }
 
-  .search-container {
-    bottom: -20px;
+  .slider-container {
+    height: 350px;
   }
 
   .slider-btn {
@@ -438,10 +520,6 @@ body {
 }
 
 @media (max-width: 576px) {
-  .section-spacing {
-    padding: 60px 0;
-  }
-
   .section-title {
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -449,6 +527,10 @@ body {
 
   .hero-section .display-3 {
     font-size: 2rem;
+  }
+
+  .slider-container {
+    height: 300px;
   }
 }
 
